@@ -24,5 +24,6 @@ def index():
 
 
 def generate_prompt(animal):
-    q = 'Summarise' + animal +  ' paper ' + 'to a researcher with data and diagrams'
+    q = 'Summarise' + animal +  'paper with data and diagrams' + 'to a researcher'
     return q
+
